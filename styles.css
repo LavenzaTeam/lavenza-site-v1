@@ -76,7 +76,6 @@ button:hover {
     font-family: "Montserrat";
     text-align: center;
     background-color: rgb(43, 44, 51);
-    min-height: 92.7vh;
     max-height: 100vh;
 }
 
