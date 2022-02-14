@@ -16,7 +16,7 @@
         function RedirectToInvitePage() {
             let clientID = "639988194229878810";
             let permissionsInteger = "8";
-            let inviteURL = `https://discordapp.com/api/oauth2/authorize?client_id=${clientID}&permissions=${permissionsInteger}&scope=bot`;
+            let inviteURL = `https://discord.com/api/oauth2/authorize?client_id=${clientID}&permissions=${permissionsInteger}&scope=bot%20applications.commands`;
             window.location.href = inviteURL;
         }
         RedirectToInvitePage();
